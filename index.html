@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css">
+    <title>Барбершоп "Бородинский"</title>
+</head>
+
+<body>
+
+    <header class="main-header">
+        <div class="container clearfix">
+            <nav class="main-navigation">
+                <ul>
+                    <li class="main-navigation-item current-page">
+                        <a href="#">главная</a>
+                        <hr width="60%" color="white"/>
+                    </li>
+                    <li class="main-navigation-item">
+                        <a href="#">информация</a>
+                    </li>
+                    <li class="main-navigation-item">
+                        <a href="#">новости</a>
+                    </li>
+                    <li class="main-navigation-item">
+                        <a href="#">прайс-лист</a>
+                    </li>
+                    <li class="main-navigation-item">
+                        <a href="#">магазин</a>
+                    </li>
+                    <li class="main-navigation-item">
+                        <a href="#">контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            <ul class="header-login">
+                <li><a class="login-link">вход</a></li>
+            </ul>
+        </div>
+    </header>
+
+
+    <main class="container">
+        
+        <figure class="logo">
+            <img src="img/index-logo.svg" width="368" height="152">
+        </figure>
+
+        <div class="content-advantages clearfix">
+            <section class="content-advantages-block">
+                <h2 class="content-advantages-title">быстро</h2>
+                <p>мы делаем свою работу быстро! два часа <br> пролетят незаметно и вы счастливый <br> обладатель стильной стрижки-минутки!</p>
+            </section>
+
+            <section class="content-advantages-block">
+                <h2 class="content-advantages-title">круто</h2>
+                <p>забудьте, как выстриглись раньше. <br> мы сделаем из вас звезду футбола или кино! <br> во всяком случае внешне.</p>
+            </section>
+
+            <section class="content-advantages-block">
+                <h2 class="content-advantages-title">дорого</h2>
+                <p>наши мастера профессионалы своего дела <br> и не могут стоить дешево. к тому же, разве <br> цена не дает определенный статус?</p>
+            </section>
+        </div>
+
+        <div class="content-index-row clearfix">
+            <section class="content-left-column content-news">
+                <h2 class="content-column-title">новости</h2>
+
+                <ul class="content-news-preview">
+                    <li>
+                        <p>нам наконец завезли ягермайстер! теперь вы можете <br> пропустить стаканчик во время стрижки</p>
+                        <time datetime="2023-01-11">11 января</time>
+                    </li>
+                    <li>
+                        <p>в нашей команде пополнение, борис "бритва" стригунец, обладатель множества титулов и наград пополнил наши <br> стройные ряды</p>
+                        <time datetime="2023-01-18">18 января</time>
+                    </li>
+                </ul>
+
+                <a href="#" class="btn">все новости</a>
+            </section>
+
+            <img src="img/line (1).png" class='line-l' alt="">
+
+            <section class="content-right-column content-gallery">
+                <h2 class="content-column-title">фотогалерея</h2>
+                <div class="content-gallery-block">
+
+                    <figure class="content-gallery-img">
+                        <img src="img/interior.jpg" width="286" height="164" alt="интерьер">
+                    </figure>
+
+                    <button class="btn content-gallery-prev" disabled>назад</button>
+                    <button class="btn content-gallery-next">вперед</button>
+                </div>
+            </section>
+        </div>
+
+        <div class="content-index-row clearfix">
+            <section class="content-left-column content-contacts">
+                <h2 class="content-column-title">контактная информация</h2>
+
+                <div class="content-contacts-block">
+                    <p>Барбершоп "Бородинский"</p>
+                    <p>адрес: г. санкт-петербург, Б. КОНЮШЕННАЯ, Д. 19/8</p>
+                    <p>телефон: +7 (495) 666-02-66</p>
+                </div>
+
+                <div class="content-contacts-blocks">
+                    <p>время работы:</p>
+                    <p>пн — пт: с 10:00 до 22:00</p>
+                    <p>сб — вс: с 10:00 до 19:00</p>
+                </div>
+
+                <a href="#" class="btn">как проехать</a>
+                <a href="#" class="btn">обратная связь</a>
+            </section>
+
+            <img src="img/line (1).png" class='line-l' alt="">
+
+            <section class="content-right-column content-appointment-form">
+                <h2 class="content-column-title">записаться</h2>
+                <p>укажите желаемую дату и время и мы свяжемся <br> с вами для подтверждения брони</p>
+                
+            <form class="appt-form" action="https://echo.2ispr.site" method="post">
+            <div class="appt-item">
+                    <label for="appt-date">Дата</label>
+                    <input id="appt-date" type="date" name="date">
+            </div>
+        
+
+            <div class="appt-item appt-time">
+                    <label for="appt-time">Время</label>
+                    <input id="appt-time" type="time" name="time">
+            </div>
+          
+
+            <div class="appt-item">
+                    <label for="appt-name">Ваше имя</label>
+                    <input id="appt-name" type="text" name="name" placeholder="Степан Олегович">
+            </div>
+
+            <div class="appt-item appt-phone">
+                    <label for="appt-phone">Телефон</label>
+                    <input id="appt-phone" type="tel" name="phone" placeholder="+7 800 555-35-35">
+            </div>
+
+            <button class="btn">Отправить</button>
+            </form>
+
+            </section>
+        </div>
+    </main>
+
+
+    <footer>
+        <div class="container clearfix">
+            <div class="footer-contacts">
+                <p>barbershop «borodinski»</p>
+                <p>адрес: г. санкт-петербург, ул. Пушкина, д. Колотушкина</p>
+                <a href="#">как нас найти?</a>
+                <p>телефон: +7 (495) 666-02-66</p>
+            </div>
+
+            <div class="footer-social">
+                <p>давайте дружить!</p>
+                <a href="#"><img src="img/vk.svg"class="btn footer-social-vk" alt="вконтакте"></a>
+                <a href="#"><img src="img/facebook.svg" class="btn footer-social-facebook" alt="фейсбук"></a>
+                <a href="#"><img src="img/instagram.svg" class="btn footer-social-insta" alt="инстаграмм"></a>
+            </div>
+
+            <div class="footer-copyright">
+                <p>дизайн сайта:</p>
+                <a href="#" class="btn">nogkollegh</a>
+            </div>
+
+        </div>
+    </footer>
+</body>
+</html>
+
